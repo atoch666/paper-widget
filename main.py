@@ -9,7 +9,7 @@ DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
 headers = {
     "Authorization": f"Bearer {NOTION_API_KEY}",
     "Content-Type": "application/json",
-    "Notion-Version": "2022-02-28"
+    "Notion-Version": "2022-06-28"
 }
 
 def fetch_random_arxiv_paper():
